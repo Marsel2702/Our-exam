@@ -1,0 +1,74 @@
+.bnbn{
+    margin-bottom: 94px;
+}
+.bnbn .container{
+    width: 1140px;
+    display: contents;
+    justify-content: space-around;
+}
+.bnbn__title{
+    font-size: 40px;
+    margin-bottom: 69px;
+}
+.bnbn__button{
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 0 22px 0 0;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: unset;
+    text-align: center;
+    letter-spacing: 0;
+    color: #ffffff;
+    background: #6F2CFF;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    border: none;
+}
+.bnbn__button:hover {
+    background: #FFFFFF;
+    box-shadow: 0 15px 20px rgba(120, 63, 255, 0.67);
+    color: #6F2CFF;
+}
+.bnbn__link-first:hover {
+    background: #FFFFFF;
+    color: #6F2CFF;
+}
+.bnbn__link-first{
+    color: black;
+    text-decoration: none;
+}
+.bnbn__text{
+    padding-top: 117px;
+    text-align: left;
+    align-items: center;
+}
+.bnbn .col-6{
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.bnbn__link-second{
+    color: black;
+}
+.bnbn .row{
+    display: flex;
+    justify-content: space-around;
+}
+.bnbn__desc{
+    margin-top: 56px;
+    margin-bottom: 7px;
+}
+.bnbn__link-first::before{
+    content: '';
+    height: 2px;
+    width: 170px;
+    background-color: #6F2CFF;
+    position: absolute;
+    margin-top: 40px;
+}

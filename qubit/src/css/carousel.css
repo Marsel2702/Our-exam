@@ -1,0 +1,35 @@
+.carousel{
+    background: #F5F5F5;
+    height: 751px;
+}
+.carousel .carousel__title {
+    font-size: 40px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.carousel__desc{
+    color: #6F2CFF;
+    font-size: 18px;
+    padding-top: 25px;
+    text-align: center;
+}
+.carousel .col-4 {
+    margin-left: 40px;
+}
+.carousel__subtitle{
+    margin-left: 85px;
+    padding-top: 25px;
+}
+.carousel img {
+    width:-100%
+}
+.carousel__item{
+    background: #FFFFFF;
+    width: 320px;
+    height: 450px;
+}
+.carousel__subtitle1{
+    margin-left: 128px;
+    padding-top: 25px
+}

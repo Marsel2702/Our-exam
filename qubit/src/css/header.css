@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat, sans-serif;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    background: #ffffff;
+}
+.header .container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header__img{
+    position: absolute;
+    height: 24px;
+    left: 2.08%;
+    right: 92.43%;
+    top: 20px;
+}
+.header__link{
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+    text-decoration: none;
+}
+.header__link::before{
+    content: '';
+    position: absolute;
+    top: 35px;
+    background-color: #6F2CFF;
+    height: 2px;
+    width: 100%;
+    transform: scale(0);
+    transition: 0.6s;
+}
+.header__link:hover::before{
+    transform: scale(1);
+    transition: 0.6s;
+}
+.header__button{
+    display: contents;
+}
+.header__button-first{
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: unset;
+    text-align: center;
+    letter-spacing: 0;
+    color: #ffffff;
+    background: #6F2CFF;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    border: none;
+}
+.header__button-second{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: unset;
+    text-align: center;
+    letter-spacing: 0;
+    color: black;
+    border: none;
+}
+.header__button-second:hover {
+    background: #FFFFFF;
+    color: #6F2CFF;
+}
+.header__button-first:hover {
+    background: #FFFFFF;
+    box-shadow: 0 15px 20px rgba(120, 63, 255, 0.67);
+    color: #6F2CFF;
+}
+.header::before{
+    content: '';
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.5;
+}

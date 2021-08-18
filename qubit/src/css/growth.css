@@ -1,0 +1,42 @@
+.growth{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 91px;
+}
+.growth .container {
+    width: 1140px;
+    height: 350px;
+    margin: 30px;
+}
+.growth__title {
+    padding: 22px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 15px;
+}
+.growth__subtitle {
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+}
+.growth .row {
+    display: flex;
+    justify-content: space-between;
+}
+.growth .col-4 {
+    width: 30%;
+    padding: 0 15px;
+    text-align: center;
+}
+.growth__img{
+    margin-top: 60px;
+}
+.growth__caption {
+    font-size: 19px;
+    padding: 16px;
+}
+.growth__desc {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}

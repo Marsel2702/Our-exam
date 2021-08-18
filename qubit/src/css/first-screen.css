@@ -1,0 +1,65 @@
+.first-screen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background: url("../images/Rectangle (15).png") left top/100% 100%;
+    color: black;
+    text-align: center;
+}
+.first-screen__content{
+    text-align: left;
+    align-items: center;
+    margin-left: 115px;
+}
+.first-screen__desc{
+    font-size: 15px;
+}
+.first-screen__main-heading{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    margin-top: 19px;
+}
+.first-screen__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #6F2DFF;
+}
+.first-screen__subtitle{
+    font-size: 18px;
+    margin-top: 37px;
+    line-height: 30px;
+}
+.first-screen__form{
+    position: relative;
+}
+.first-screen__email{
+    width: 299px;
+    padding: 13px 33px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px 0 0 30px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+    position: absolute;
+    left: 0;
+    border: 1px solid #6F2CFF
+}
+.first-screen__submit{
+    width: 190px;
+    padding: 14px 33px 14px 26px;
+    background: #6F2CFF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0 30px 30px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    border: 1px solid #6F2CFF
+}

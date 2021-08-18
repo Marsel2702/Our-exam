@@ -1,0 +1,84 @@
+.today-title{
+    text-align: center;
+    color: white;
+}
+.today-title{
+    background: url("../images/Rectangle (17).png") left top/100% 100%;
+    padding: 150px;
+    padding-top: 93px;
+    padding-bottom: 107px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.today__psj{
+    text-align: center;
+    height: 344px;
+}
+.today__desc{
+    padding-top: 29px;
+}
+.subscribe{
+    padding: 250px 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.subscribe-title{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+.subscribe-description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 0 30px;
+    color: #999999;
+}
+.subscribe-text{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 100px;
+    color: #999999;
+}
+.subscribe-form{
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-email{
+    width: 268px;
+    height: 45px;
+    padding: 13px 33px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px 0 0 30px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+    position: relative;
+    left: 0;
+    border: 1px solid #6F2CFF
+}
+.subscribe-submit{
+    width: 187px;
+    height: 45px;
+    background: #6F2CFF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0 30px 30px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: relative;
+    right: 0;
+    border: 1px solid #6F2CFF
+}
+
+.face__img{
+    padding-top: 31px;
+    width: 100%;
+}
